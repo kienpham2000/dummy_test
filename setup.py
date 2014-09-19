@@ -1,4 +1,4 @@
-"""dummy-test - Dummy test package for testing purposes
+"""dummy_test - Dummy test package for testing purposes
 
 This package is super small and light used for pip testing purposes
 
@@ -20,12 +20,13 @@ from setuptools import setup
 doc = __doc__.splitlines()
 
 setup(
-    name="dummy-test",
-    version="0.0.3",
+    name="dummy_test",
+    version="0.1.0",
+    packages=['dummy_test'],
     zip_safe=False,
     author='Kien Pham',
     author_email='kien@sendgrid.com',
-    url="https://github.com/kienpham2000/dummy-test",
+    url="https://github.com/kienpham2000/dummy_test",
     license='MIT',
     description=doc[0],
     long_description='\n'.join(doc[2:]),
