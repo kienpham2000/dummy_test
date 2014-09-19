@@ -21,7 +21,7 @@ doc = __doc__.splitlines()
 
 setup(
     name="dummy_test",
-    version="0.1.0",
+    version="0.1.1",
     packages=['dummy_test'],
     zip_safe=False,
     author='Kien Pham',
